@@ -1,8 +1,51 @@
-# React + Vite
+# FILMIX
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+FILMIX é uma aplicação web que permite aos usuários buscar por filmes e visualizar o nome do filme junto com a capa. A aplicação utiliza a API do OMDB (Open Movie Database) para obter as informações dos filmes.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Busca de filmes por título.
+- Exibição do nome do filme.
+- Exibição da capa do filme.
+
+## Tecnologias Utilizadas
+
+- HTML5
+- CSS3
+- React.JS
+- API OMDB
+
+## Como Utilizar
+
+1. Clone este repositório para a sua máquina local.
+   ```bash
+   git clone https://github.com/seu-usuario/filmix.git
+
+2. Navegue até o diretório do projeto.
+   ```bash
+   cd filmix
+   npm install
+   npm run dev
+
+---
+
+# API OMDB
+A aplicação utiliza a [API OMDB](http://www.omdbapi.com/) para buscar informações sobre os filmes. Para utilizar a API, você precisará de uma chave de API. Siga os passos abaixo para obter sua chave de API:
+
+1. Acesse [OMDB API](http://www.omdbapi.com/apikey.aspx).
+2. Solicite sua chave de API gratuita.
+3. Atualize o arquivo JavaScript da aplicação para incluir sua chave de API.
+   ```javascript
+   const response = await fetch(
+     `http://www.omdbapi.com/?s=${query}&apikey=SUA_API_KEY`
+   );
+
+---
+
+## Contato
+
+Sinta-se à vontade para entrar em contato comigo.
+
+---
+
+Feito por [Isaac Martins](https://www.linkedin.com/in/isaacmjsilva/)
