@@ -1,5 +1,7 @@
 # FILMIX
 
+https://github.com/DevZank/BuscaFilmes_React/assets/111926496/cd2ccb56-9968-4ad3-98ba-432670900cf6
+
 FILMIX é uma aplicação web que permite aos usuários buscar por filmes e visualizar o nome do filme junto com a capa. A aplicação utiliza a API do OMDB (Open Movie Database) para obter as informações dos filmes.
 
 ## Funcionalidades
